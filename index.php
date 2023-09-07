@@ -20,7 +20,7 @@ $current_day = date("l");
 $utc_time = gmdate("Y-m-d\TH:i:s\Z");
 
 // Get the GitHub file URL of the current script
-$github_file_url = "https://github.com/Rotimiiam/stage1/blob/main/api.php";
+$github_file_url = "https://github.com/Rotimiiam/stage1/blob/main/index.php";
 
 // Get the GitHub repo URL of the project
 $github_repo_url = "https://github.com/Rotimiiam/stage1";
