@@ -39,6 +39,8 @@ $github_file_url = "https://github.com/Rotimiiam/stage1/blob/main/api.php";
 // Get the GitHub repo URL of the project
 $github_repo_url = "https://github.com/Rotimiiam/stage1";
 
+header('Content-Type: application/json');
+
 // Return the JSON response with the required information in the correct format
 echo json_encode(array(
   "slack_name" => $slack_name,
