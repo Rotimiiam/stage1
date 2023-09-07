@@ -7,7 +7,7 @@ $track = $_GET["track"];
 if (empty($slack_name) || empty($track)) {
   // Return an error message and status code 400 if any parameter is missing
   echo json_encode(array(
-    "error_message" => "Please provide both slack_name and track parameters",
+    "error_message" => "Please provide both slack name and track parameters",
     "status_code" => 400
   ));
   exit();
