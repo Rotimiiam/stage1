@@ -47,6 +47,6 @@ echo json_encode(array(
   "track" => $track,
   "github_file_url" => $github_file_url,
   "github_repo_url" => $github_repo_url,
-  "status_code" => 200 // Status code as a string in the correct format
+  "status_code" => 200 
 ));
 ?>
