@@ -14,7 +14,7 @@ if (empty($slack_name) || empty($track)) {
 }
 
 // Get the current UTC time in the correct format
-$current_utc_time = gmdate("Y-m-d\TH:i:sZ");
+$current_utc_time = gmdate("Y-m-d\TH:i:s\Z");
 
 // Calculate UTC time 2 minutes ago and 2 minutes in the future
 $valid_utc_time_min = gmdate("Y-m-d\TH:i:s\Z", strtotime("-2 minutes"));
