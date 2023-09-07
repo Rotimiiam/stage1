@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 function get_current_utc_time() {
     $current_time = new DateTime('now', new DateTimeZone('UTC'));
     $target_time = new DateTime('now', new DateTimeZone('UTC'));
-    $target_time->modify('-2 minutes');
+    $target_time->modify('-1 minutes');
     
     if ($current_time <= $target_time) {
         return $current_time->format('Y-m-d\TH:i:s\Z');
